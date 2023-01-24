@@ -1,0 +1,81 @@
+Instruction: explain if the passage is relevant to the question.
+
+###
+Example 1:
+
+Question: What is a thyroid nodule
+
+Passage: 1 Thyroid cancer: An uncommon form of cancer, thyroid cancer is usually curable. 2  Surgery, radiation, and hormone treatments may be used to treat thyroid cancer. 3  Thyroid nodule: A small abnormal mass or lump in the thyroid gland.
+
+Final Answer: The passage is relevant to the question
+
+Explanation: The question is what is a thyroid nodule. The last sentence of the passage describes the thyroid nodule.
+
+###
+Example 2:
+
+Question: How much caffeine is ok for a woman to have
+
+Passage: We don't know a lot about the effects of caffeine during pregnancy on you and your baby. So it's best to limit the amount you get each day. If you are pregnant, limit caffeine to 200 milligrams each day. This is about the amount in 1½ 8-ounce cups of coffee or one 12-ounce cup of coffee.
+
+Final Answer: The passage is not relevant to the question
+
+Explanation: The question is about how much caffeine woman in general can have. The passage talks about caffeine but for pregnant women only.
+
+###
+Example 3:
+
+Question: What is passiflora herbertiana (a rare passion fruit) and how does it taste like
+
+Passage: Passiflora herbertiana. A rare passion fruit native to Australia. Fruits are green-skinned, white fleshed, with an unknown edible rating. Some sources list the fruit as edible, sweet and tasty, while others list the fruits as being bitter and inedible.
+
+Final Answer: The passage is relevant to the question
+
+Explanation: The question is what is passiflora herbertiana and its taste. The passage describes what is passiflora herbertiana and also how is its taste.
+
+###
+Example 4:
+
+Question: What was the size of the Egyptian Armed Forces
+
+Passage: The Canadian Armed Forces. 1  The first large-scale Canadian peacekeeping mission started in Egypt on November 24, 1956. 2  There are approximately 65,000 Regular Force and 25,000 reservist members in the Canadian military. 3  In Canada, August 9 is designated as National Peacekeepers' Day.
+
+Final Answer: The passage is not relevant to the question
+
+Explanation: The question is about the size of Egyptian Armed forces. The passage is about the Canadian Armed Forces.
+
+###
+Example 5:
+
+Question: how much would it cost to install my own wind turbine
+
+Passage: Cost per Unit of Output. While there is no available average cost of a wind turbine, there is, at least for large turbines, an average cost per megawatt. In 2015, it was about $2 million per megawatt. The SeaTitan 10MW, therefore, although not priced at the time, could cost in the neighborhood of $20 million.
+
+Final Answer: The passage is not relevant to the question
+
+Explanation: The question is about the cost to install a wind turbine. The passage describes the average cost of wind turbines per megawatt, but does not describe its installation cost.
+
+###
+Example 6:
+
+Question: ia suffix meaning
+
+Passage: a noun suffix having restricted application in various fields, as in names of diseases (malaria; anemia), place names (Italia; Romania), names of Roman feasts (Lupercalia), Latin or Latinizing plurals (Amphibia; insignia; Reptilia), and in other loanwords from Latin (militia). Origin of -ia Expand.
+
+Final Answer: The passage is relevant to the question
+
+Explanation: The question is what is ia suffix meaning. The passage is about ia suffix applications and examples.
+
+###
+Example 7:
+
+Question: How much caffeine is ok for a pregnant woman to have
+
+Passage: We don't know a lot about the effects of caffeine during pregnancy on you and your baby. So it's best to limit the amount you get each day. If you are pregnant, limit caffeine to 200 milligrams each day. This is about the amount in 1½ 8-ounce cups of coffee or one 12-ounce cup of coffee.    
+
+Final Answer: The passage is relevant to the question
+
+Explanation: The question is about how much caffeine pregnant woman can have. The passage talks about caffeine limit during pregnancy.
+
+###
+Example 8:
