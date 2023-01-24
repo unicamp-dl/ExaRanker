@@ -7,4 +7,4 @@ Summary:
 
 * **/monoT5-bin-plus**: finetunning and inference for the ExaRanker model
 
-* **onoT5-bin**finetunning and inference for the T5 model (baseline model)
+* **/monoT5-bin**: finetunning and inference for the T5 model (baseline model)
