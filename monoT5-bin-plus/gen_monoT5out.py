@@ -12,27 +12,19 @@ class MyGenOut():
         os.system('clear')
 
         #control flags
-        #rodar em arquivo reduzido
         demo = 0
-        #rodar verboso
+        #run verbose
         verbose = 0
-        #rodar a gpt via api da openai
+        #run gpt api openai
         run_monoT5 = 1      
 
 
         model_n = model_n_in
 
-
-
         tokenizer = T5Tokenizer.from_pretrained("monoT5-bin-plus/chk/model-" + str(model_n))
         model = T5ForConditionalGeneration.from_pretrained("monoT5-bin-plus/chk/model-" + str(model_n))
 
-        #tokenizer = T5Tokenizer.from_pretrained("castorini/monot5-base-msmarco-10k")
-        #model = T5ForConditionalGeneration.from_pretrained("castorini/monot5-base-msmarco-10k")
-
-        #tokenizer = T5Tokenizer.from_pretrained("t5-base")
-        #model = T5ForConditionalGeneration.from_pretrained("t5-base")
-
+        
         if demo ==1 :
             file_run = 'rerankgpt3-1k/baseline/run.dl20demo.txt'
         else:
@@ -47,7 +39,7 @@ class MyGenOut():
         
         
         print()
-        print('RODANDO COM CUDA: ', torch.cuda.is_available() )
+        print('CUDA: ', torch.cuda.is_available() )
         print()
 
 

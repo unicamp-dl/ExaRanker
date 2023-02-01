@@ -1,7 +1,5 @@
-#gera os 1000 samples a partir do DS MSMARCO+GPT3
+# generate N samples from DS MSMARCO+GPT3
 import os
-import torch
-import numpy as np
 import csv
 import json
 
@@ -9,8 +7,9 @@ os.system('clear')
 
 
 #control flags
-#rodar verboso
+#run verbose
 verbose = 0
+
 #demo
 demo = 0
 

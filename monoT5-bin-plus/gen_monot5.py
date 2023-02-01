@@ -1,4 +1,3 @@
-#utiliza todo o texto predito pelo gpt3
 import json
 import os
 import math
@@ -6,9 +5,8 @@ import math
 os.system('clear')
 
 #control flags
-#rodar em arquivo reduzido
 demo = 0
-#rodar verboso
+#run verbose
 verbose = 0
 
 #model name
@@ -68,7 +66,6 @@ with open(file_run, encoding='utf8') as f:
             avg_rel = 0
         else:
             avg_rel = sum_i / count_i
-            #avg_rel = math.exp(sum_i / count_i)
         
         if flag_rel ==0 and avg_rel > 0:
             avg_rel = 1 - avg_rel

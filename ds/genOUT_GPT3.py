@@ -1,7 +1,5 @@
-#gera as saidas do GPT3 usando o MSMARCO dataset
+# generate GPT3 output from MSMARCO dataset
 import os
-import torch
-import numpy as np
 import csv
 from utils import MyUtils
 import openai
@@ -65,7 +63,7 @@ with open(file_run, encoding='utf8') as filein:
             fj.close()
             
             if verbose ==1:
-                print('Saida:')
+                print('Output:')
                 print(output)
             
             print(str(id))

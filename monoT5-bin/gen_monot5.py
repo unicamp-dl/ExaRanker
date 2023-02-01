@@ -1,4 +1,3 @@
-#utiliza todo o texto predito pelo gpt3
 import json
 import os
 import math
@@ -6,9 +5,8 @@ import math
 os.system('clear')
 
 #control flags
-#rodar em arquivo reduzido
 demo = 0
-#rodar verboso
+#run verbose
 verbose = 0
 
 #model name
