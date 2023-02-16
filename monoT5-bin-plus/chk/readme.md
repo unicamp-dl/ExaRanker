@@ -1,1 +1,1 @@
-model checkpoints and outputs will be sabed on this path
+Model checkpoints and outputs will be saved on this folder.
