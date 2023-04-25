@@ -9,6 +9,9 @@ Summary:
 
 * **/monoT5-bin**: finetunning and inference for the T5 model (baseline model)
 
+<img src="https://user-images.githubusercontent.com/26362929/234304094-8ea0121e-bc39-4941-ad9d-506f5a21d16a.png" width="572" height="401">
+
+<img src="https://user-images.githubusercontent.com/26362929/234306391-42acaf11-dd12-4cb9-9b60-c4f8bd632078.png" width="627" height="230">
 
 # How to cite this work
 ```
