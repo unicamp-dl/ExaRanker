@@ -1,4 +1,7 @@
 # ExaRanker
+
+[Link to the paper](https://arxiv.org/pdf/2301.10521.pdf) (published at SIGIR 2023)
+
 This repository contains the code and dataset used to generate the ExaRanker model.
 
 Summary:
@@ -15,14 +18,20 @@ Summary:
 
 # How to cite this work
 ```
-@misc{https://doi.org/10.48550/arxiv.2301.10521,
-  doi = {10.48550/ARXIV.2301.10521},
-  url = {https://arxiv.org/abs/2301.10521},
-  author = {Ferraretto, Fernando and Laitz, Thiago and Lotufo, Roberto and Nogueira, Rodrigo},
-  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Information Retrieval (cs.IR), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {ExaRanker: Explanation-Augmented Neural Ranker},
-  publisher = {arXiv},
-  year = {2023},  
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{10.1145/3539618.3592067,
+    author = {Ferraretto, Fernando and Laitz, Thiago and Lotufo, Roberto and Nogueira, Rodrigo},
+    title = {ExaRanker: Synthetic Explanations Improve Neural Rankers},
+    year = {2023},
+    isbn = {9781450394086},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3539618.3592067},
+    doi = {10.1145/3539618.3592067},
+    booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages = {2409–2414},
+    numpages = {6},
+    keywords = {multi-stage ranking, few-shot models, explanations, large language models, synthetic datasets, generative models},
+    location = {<conf-loc>, <city>Taipei</city>, <country>Taiwan</country>, </conf-loc>},
+    series = {SIGIR '23}
 }
 ```
